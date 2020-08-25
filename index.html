@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Foundation is a website template for startups and small teams.
+      It helps to build a website in no time."
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="foundation,template" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Foundation</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="wrapper-header">
+        <header class="header">
+          <nav class="header__nav">
+            <div class="brand">
+              <a href="#" class="brand__icon">
+                <img src="img/icon.png" alt="brand-icon"
+              /></a>
+              <div class="brand__content">
+                <a href="#" class="brand__content__name --fw-bold"
+                  >Foundation</a
+                >
+                <p class="brand__content__desc">Startup landing template</p>
+              </div>
+            </div>
+            <div class="wrap-menu">
+              <ul class="menu menu--show">
+                <li class="menu__item menu__item--home --fw-bold">
+                  <a href="#">Home</a>
+                </li>
+                <li class="menu__item menu__item--stories">
+                  <a href="#">Stories</a>
+                </li>
+                <li class="menu__item menu__item--library menu__item--dropdown">
+                  <a href="#"
+                    >Library <img src="img/Arrow.png" alt="Arrow"
+                  /></a>
+                  <ul class="toggle">
+                    <li class="toggle__item">
+                      <a class="toggle__item__link --fw-bold" href="#"
+                        >Acquire Users</a
+                      >
+                      <p class="toggle__item__para">
+                        Work with the tools and services you use.
+                      </p>
+                    </li>
+                    <li class="toggle__item">
+                      <a class="toggle__item__link --fw-bold" href="#"
+                        >Engage Customers</a
+                      >
+                      <p class="toggle__item__para">
+                        Get started with our simple snippet of JavaScript.
+                      </p>
+                    </li>
+                    <li class="toggle__item">
+                      <a class="toggle__item__link --fw-bold" href="#"
+                        >Book Appointments</a
+                      >
+                      <p class="toggle__item__para">
+                        We offer measures like 2FA to ensure the safety.
+                      </p>
+                    </li>
+                    <li class="toggle__item">
+                      <a class="toggle__item__link --fw-bold" href="#"
+                        >Generate Leads</a
+                      >
+                      <p class="toggle__item__para">
+                        Become a better designer by learning this courses.
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <button class="menu__btn btn">Get Started</button>
+
+              <div class="menu__toggle" onmouseover="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </div>
+          </nav>
+
+          <div class="header__banner">
+            <div class="header__banner__left">
+              <h1 class="header__banner__tittle --fw-bold">
+                Build stunning websites & apps.
+              </h1>
+              <p class="header__banner__para">
+                Create live segments and target the right people for messages
+                based on their behaviors.
+              </p>
+              <div class="group-button sm-group-btn">
+                <button class="header__banner__btn btn sm-btn">
+                  Get Started
+                </button>
+                <button
+                  class="header__banner__btn btn btn--text-blue--bg-white sm-btn"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+
+            <img class="header__banner__img" src="img/ouch.png" alt="ouch" />
+          </div>
+        </header>
+      </div>
+
+      <!-- Information  -->
+      <section class="wrapper-info">
+        <div class="info">
+          <div class="info__item">
+            <h3 class="info__item__title --fw-bold">What is it about?</h3>
+            <p class="info__item__para">
+              Building a website for a startup that looks amazing is not a
+              rocket science anymore.
+            </p>
+          </div>
+          <div class="info__item">
+            <h3 class="info__item__title --fw-bold">Who is it for?</h3>
+            <p class="info__item__para">
+              Startups, small companies and teams, entrepreneurs and we
+              developers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <div class="wrapper-features">
+        <div class="features">
+          <div class="logo">
+            <div class="logo__item">
+              <img
+                class="logo__item__img --w-80p"
+                src="./img/Bitmap.png"
+                alt="Bitmap"
+              />
+            </div>
+            <div class="logo__item">
+              <img
+                class="logo__item__img"
+                src="./img/Bitmap1.png"
+                alt="Bitmap"
+              />
+            </div>
+            <div class="logo__item">
+              <img
+                class="logo__item__img --w-50p"
+                src="./img/Bitmap2.png"
+                alt="Bitmap"
+              />
+            </div>
+            <div class="logo__item">
+              <img
+                class="logo__item__img"
+                src="./img/mashable-logo.png"
+                alt="Bitmap"
+              />
+            </div>
+            <div class="logo__item">
+              <img
+                class="logo__item__img --w-50p"
+                src="./img/Bitmap4.png"
+                alt="Bitmap"
+              />
+            </div>
+            <div class="logo__item">
+              <img
+                class="logo__item__img"
+                src="./img/google-logo-black-transparent.png"
+                alt="Bitmap"
+              />
+            </div>
+          </div>
+
+          <div class="features__content content-width">
+            <h5 class="category category--green">Features</h5>
+            <h2 class="heading">Easily find leads and customers</h2>
+            <p class="description">
+              Send one-off and automated email, push, and in-app messages to
+              people. Create better stories.
+            </p>
+            <ul>
+              <li class="features__content__item">
+                <img src="img/icon-feature1.png" alt="icon-feature1" />
+                <h6 class="--fw-bold">Acquire new customers</h6>
+                <p>
+                  Everything you need to start building – including open-source
+                  code, documentation.
+                </p>
+              </li>
+
+              <li class="features__content__item">
+                <img src="img/icon-feature2.png" alt="icon-feature2" />
+                <h6 class="--fw-bold">Engage users</h6>
+                <p>
+                  Everything you need to start building – including open-source
+                  code, documentation.
+                </p>
+              </li>
+
+              <li class="features__content__item">
+                <img src="img/icon-feature3.png" alt="icon-feature3" />
+                <h6 class="--fw-bold">Develop across platforms</h6>
+                <p>
+                  Everything you need to start building – including open-source
+                  code, documentation.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <img
+            class="features__img"
+            src="img/invision-feature.png"
+            alt="vision-feature"
+          />
+        </div>
+
+        <img
+          class="features-icon"
+          src="img/feature-ouch.png"
+          alt="feature-ouch"
+        />
+      </div>
+
+      <!-- Team Inbox -->
+      <div class="wrapper-team-inbox">
+        <div class="team-inbox">
+          <div class="main-img">
+            <img src="img/team-inbox-ouch.png" alt="main-img" />
+            <p>Connect with customers and grow faster</p>
+          </div>
+
+          <div class="team-inbox__right content-width">
+            <h5 class="category category--orange">Team Inbox</h5>
+            <h2 class="heading">Manage conversations</h2>
+            <p class="description">
+              One place to manage and respond to all conversations with leads
+              and users. Receive messages from leads.
+            </p>
+
+            <div class="team-inbox__right__content">
+              <p class="team-inbox__right__content__para">
+                “Great widgets. Great selection. Great design and
+                <strong>easy to implement</strong>. Definitely a huge time saver
+                for a web developer!”
+              </p>
+              <div class="profile">
+                <img
+                  class="profile__img"
+                  src="img/profile-image.png"
+                  alt="profile-image"
+                />
+                <div class="profile__name">
+                  <p class="--fw-bold">Viella Malkovich</p>
+                  <span>Creative Director at Johnson</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Communicate -->
+      <div class="wrapper-communicate">
+        <div class="communicate">
+          <div class="communicate__box">
+            <div class="communicate__box__left content-width">
+              <h5 class="category category--blue">Communicate Better</h5>
+              <h2 class="heading">Built for busy small teams</h2>
+              <p class="description">
+                Three products that can be used independently or combined
+                together for your company’s needs.
+              </p>
+              <button class="btn sm-btn-normal">
+                Get Started
+              </button>
+              <div class="line"></div>
+            </div>
+            <div class="main-img">
+              <img src="img/com-ouch.png" alt="com-ouch" />
+              <p>A better way to acquire new users</p>
+            </div>
+          </div>
+          <div class="communicate__desc">
+            <div class="communicate__desc__item">
+              <p class="communicate__desc__item__para">
+                <strong>Subscriptions.</strong> Foundation works with the tools
+                and services you already use every day.
+              </p>
+              <a href="#">Learn more about subscriptions</a>
+            </div>
+            <div class="communicate__desc__item">
+              <p class="communicate__desc__item__para">
+                <strong>Felxible Hours.</strong> Get started with our simple
+                snippet of JavaScript or easy to install SDKs for iOS and
+                Android.
+              </p>
+              <a href="#">Get more info about hours</a>
+            </div>
+            <div class="communicate__desc__item">
+              <p class="communicate__desc__item__para">
+                <strong>Fast Communication.</strong> We offer measures like 2FA
+                and SSO to ensure the safety of your data.
+              </p>
+              <a href="#">Communication guidelines</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visitors -->
+      <div class="wrapper-visitors">
+        <div class="visitors">
+          <div class="visitors__content content-width">
+            <h5 class="category">Engage Visitors</h5>
+            <h2 class="heading">Understand your audience</h2>
+            <p class="description">
+              Early stage company? Eligible applicants get all of our products
+              for just $49 a month.
+            </p>
+            <div class="group-button">
+              <button class="header__banner__btn btn sm-btn-normal">
+                Get Started
+              </button>
+              <button
+                class="header__banner__btn btn btn--text-blue--bg-white sm-btn-normal"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <div class="visitors__card">
+            <div class="visitors__card__item">
+              <img src="img/visiters1.png" alt="visitors" />
+              <p class="--fw-bold">Developers</p>
+            </div>
+            <div class="visitors__card__item">
+              <img src="img/visiters2.png" alt="visitors" />
+              <p class="--fw-bold">Entertainment</p>
+            </div>
+            <div class="visitors__card__item">
+              <img src="img/visiters3.png" alt="visitors" />
+              <p class="--fw-bold">Athletes</p>
+            </div>
+            <div class="visitors__card__item">
+              <img src="img/visiters4.png" alt="visitors" />
+              <p class="--fw-bold">Creators</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hiring -->
+      <div class="wrapper-hiring">
+        <div class="hiring">
+          <div class="hiring__content content-width">
+            <h2 class="heading">We’re hiring</h2>
+            <p class="description">
+              We’re a team of lifelong learners. We’re equal parts left and
+              right brained.
+            </p>
+            <button class="btn btn--w24r sm-btn-normal sm-btn-long">
+              More about Company
+            </button>
+          </div>
+          <div class="hiring__tag">
+            <div class="hiring__tag__item">
+              <h6 class="--fw-bold">Front-End Developer</h6>
+              <p>Los Angeles / Remote</p>
+              <img src="img/hiring-arrow.png" alt="hiring-arrow" />
+            </div>
+            <div class="hiring__tag__item">
+              <h6 class="--fw-bold">Community Manager</h6>
+              <p>New York / Full-Time</p>
+              <img src="img/hiring-arrow.png" alt="hiring-arrow" />
+            </div>
+            <div class="hiring__tag__item">
+              <h6 class="--fw-bold">UX/UI Designer</h6>
+              <p>New York / Full-Time</p>
+              <img src="img/hiring-arrow.png" alt="hiring-arrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Free Trial -->
+      <div class="wrapper-free-trial">
+        <div class="free-trial">
+          <div class="main-img">
+            <img src="img/free-trial-ouch.png" alt="free-trial" />
+          </div>
+
+          <div class="team-inbox__right content-width">
+            <h2 class="heading heading--fs40">Start your free trial.</h2>
+            <p class="description description--fs22">
+              Get notified about company updates, news and blog posts. We hate
+              spam.
+            </p>
+            <div class="input-form">
+              <input type="text" placeholder="Enter your email" />
+              <button class="btn sm-btn-normal">Get Started</button>
+            </div>
+            <span class="free-trial__adv --cl-gray"
+              >Free 14-day trial · Easy setup · Cancel any time. Check out
+              <a href="#">Terms of Use.</a></span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="wrapper-footer">
+        <footer class="footer">
+          <div class="footer__content">
+            <div class="footer__content__brand">
+              <div class="brand">
+                <a href="#" class="brand__icon sm-brand__icon">
+                  <img src="img/icon.png" alt="brand-icon"
+                /></a>
+                <div class="brand__content">
+                  <a href="#" class="brand__content__name --fw-bold"
+                    >Foundation</a
+                  >
+                  <p class="brand__content__desc">Startup landing template</p>
+                </div>
+              </div>
+
+              <p class="footer__content__brand__para --cl-gray">
+                Foundation is a website template for startups and small teams.
+                It helps to build a website in no time.
+              </p>
+              <a class="footer__content__brand__img" href="#">
+                <img src="img/AppStore.png" alt="AppStore" />
+              </a>
+              <a class="footer__content__brand__img" href="#"
+                ><img src="img/GooglePlay.png" alt="GooglePlay"
+              /></a>
+            </div>
+            <div class="footer__content__list">
+              <h3 class="footer__content__list__title --fw-bold">Product</h3>
+              <ul class="footer__content__list__item">
+                <li><a href="#"> Acquire Users </a></li>
+                <li><a href="#"> Content Marketing</a></li>
+                <li><a href="#"> Website Templates</a></li>
+                <li><a href="#"> Customer Management</a></li>
+                <li><a href="#"> Virtual Inbox</a></li>
+              </ul>
+            </div>
+            <div class="footer__content__list">
+              <h3 class="footer__content__list__title --fw-bold">Company</h3>
+              <ul class="footer__content__list__item">
+                <li><a href="#"> About Foundation</a></li>
+                <li><a href="#"> Brand Guidelines</a></li>
+                <li><a href="#"> Press Kit</a></li>
+                <li><a href="#"> Support</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__bottom__text">
+              <a class="footer__bottom__text__item --cl-gray" href="#">Terms</a>
+              <a class="footer__bottom__text__item --cl-gray" href="#"
+                >Privacy</a
+              >
+              <a class="footer__bottom__text__item --cl-gray" href="#"
+                >License</a
+              >
+            </div>
+            <div class="footer__bottom__icon">
+              <a href="#"><img src="img/icon-twitter.png" alt="twitter" /></a>
+              <a href="#"><img src="img/icon-fb.png" alt="facebook" /></a>
+              <a href="#"><img src="img/icon-linkedln.png" alt="linkedIn" /></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script type="application/javascript">
+      function myFunction(x) {
+        x.classList.toggle("change");
+        document.querySelector(".menu").classList.toggle("menu--show");
+      }
+    </script>
+  </body>
+</html>
